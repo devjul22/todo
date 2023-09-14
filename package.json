@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm i && DISABLE_ESLINT_PLUGIN=true npm run build",
+    "build": "npm install && npm run build",
     "start": "next start",
     "lint": "next lint"
   },
