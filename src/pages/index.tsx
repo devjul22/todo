@@ -5,6 +5,7 @@ import Image from "next/image";
 export default function Home({ cars }: { cars: Car[] }): JSX.Element {
   return (
     <Layout>
+      <h1>Cars</h1>
       <div className="carsBlock">
         {cars.map((car) => (
           <div key={car.id} className="imgBlock">
